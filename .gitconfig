@@ -1,0 +1,20 @@
+[user]
+	name = Daniel Toro
+	email = d.toro@outlook.com
+[alias]
+  c = commit -m
+  ch = checkout
+  a = add
+  p = pull
+  d = push
+  f = fetch
+[url "https://github.com/"]
+    insteadOf = gh:
+[core]
+	autocrlf = input
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+	mergeoptions = --no-ff
+[pull]
+	ff = true

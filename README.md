@@ -1,4 +1,4 @@
-# dotfiles
+# Dotfiles
 
 1. Download this repository and place it under `~/dotfiles`
 2. From terminal `cd` into it
