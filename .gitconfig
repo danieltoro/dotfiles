@@ -1,6 +1,6 @@
 [user]
+	email = daniel.toro@cademsmart.cl
 	name = Daniel Toro
-	email = d.toro@outlook.com
 [alias]
   c = commit -m
   ch = checkout
@@ -12,9 +12,12 @@
     insteadOf = gh:
 [core]
 	autocrlf = input
+	excludesfile = /Users/danieltoro/.gitignore_global
 [branch "master"]
 	remote = origin
 	merge = refs/heads/master
 	mergeoptions = --no-ff
 [pull]
 	ff = true
+[credential]
+	helper = cache
