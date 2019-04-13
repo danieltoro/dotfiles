@@ -1,6 +1,6 @@
 [user]
-	email = daniel.toro@cademsmart.cl
-	name = Daniel Toro
+	email = d.toro@outlook.com
+	name = danieltoro
 [alias]
   c = commit -m
   ch = checkout
@@ -21,3 +21,11 @@
 	ff = true
 [credential]
 	helper = cache
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/danieltoro/.stCommitMsg
