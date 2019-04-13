@@ -30,7 +30,7 @@ $(brew --prefix)/opt/fzf/install
 
 # Install sdkman
 curl -s "https://get.sdkman.io" | bash
-source "/Users/cesaralberca/.sdkman/bin/sdkman-init.sh"
+source "/Users/danieltoro/.sdkman/bin/sdkman-init.sh"
 
 # Install oh my zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
