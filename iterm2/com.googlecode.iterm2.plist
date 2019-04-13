@@ -374,6 +374,8 @@
 	<true/>
 	<key>FlashTabBarInFullscreen</key>
 	<true/>
+	<key>HapticFeedbackForEsc</key>
+	<false/>
 	<key>HideActivityIndicator</key>
 	<true/>
 	<key>HideScrollbar</key>
@@ -436,9 +438,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>530 476 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>208 188 918 514 0 0 1680 1027 </string>
+	<string>208 188 644 165 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>308 321 1090 584 0 0 1680 1027 </string>
+	<string>590 69 1090 582 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -557,13 +559,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.55294120311737061</real>
+				<real>0.21838887874037027</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.90980392694473267</real>
+				<real>0.553497314453125</real>
 				<key>Red Component</key>
-				<real>0.76470589637756348</real>
+				<real>0.41724444444325931</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
@@ -622,13 +624,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.81568628549575806</real>
+				<real>0.90000000000000002</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.81568628549575806</real>
+				<real>0.90000000000000002</real>
 				<key>Red Component</key>
-				<real>0.81568628549575806</real>
+				<real>0.90000000000000002</real>
 			</dict>
 			<key>Ansi 8 Color</key>
 			<dict>
@@ -1094,6 +1096,8 @@
 				<key>Red Component</key>
 				<real>0.50980395078659058</real>
 			</dict>
+			<key>Minimum Contrast</key>
+			<real>0.62992720170454541</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -1217,7 +1221,7 @@
 			<key>Window Type</key>
 			<integer>13</integer>
 			<key>Working Directory</key>
-			<string>/Users/calberca</string>
+			<string>/Users/danieltoro</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -1808,9 +1812,16 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/calberca</string>
+			<string>/Users/danieltoro</string>
 		</dict>
 	</array>
+	<key>NoSyncFrame_SharedPreferences</key>
+	<dict>
+		<key>screenFrame</key>
+		<string>{{0, 0}, {1680, 1050}}</string>
+		<key>topLeft</key>
+		<string>{619, 665}</string>
+	</dict>
 	<key>NoSyncHaveRequestedFullDiskAccess</key>
 	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
@@ -1818,7 +1829,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>A4E61B88-B0CF-4AED-AB34-399943D06E08</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>24</integer>
+	<integer>69</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2468,7 +2479,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-02-26T11:40:08Z</date>
+	<date>2019-04-13T20:50:09Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
@@ -2483,6 +2494,8 @@
 	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
+	<key>SoundForEsc</key>
+	<false/>
 	<key>StretchTabsToFillBar</key>
 	<true/>
 	<key>TabStyle</key>
@@ -2492,6 +2505,8 @@
 	<key>TabViewType</key>
 	<integer>0</integer>
 	<key>UseBorder</key>
+	<false/>
+	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>Window Arrangements</key>
 	<dict>
@@ -3177,7 +3192,7 @@
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
-											<string>/Users/calberca</string>
+											<string>/Users/danieltoro</string>
 										</dict>
 										<key>Bookmark Name</key>
 										<string>César</string>
@@ -3187,23 +3202,23 @@
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/calberca</string>
-											<string>/Users/calberca</string>
-											<string>/Users/calberca</string>
-											<string>/Users/calberca</string>
-											<string>/Users/calberca</string>
-											<string>/Users/calberca</string>
-											<string>/Users/calberca/Workspace/sda-front</string>
-											<string>/Users/calberca/Workspace/sda-front</string>
-											<string>/Users/calberca/Workspace/sda-front</string>
-											<string>/Users/calberca/Workspace/sda-front</string>
-											<string>/Users/calberca/Workspace/sda-front</string>
-											<string>/Users/calberca/Workspace/sda-front</string>
+											<string>/Users/danieltoro</string>
+											<string>/Users/danieltoro</string>
+											<string>/Users/danieltoro</string>
+											<string>/Users/danieltoro</string>
+											<string>/Users/danieltoro</string>
+											<string>/Users/danieltoro</string>
+											<string>/Users/danieltoro/Workspace/sda-front</string>
+											<string>/Users/danieltoro/Workspace/sda-front</string>
+											<string>/Users/danieltoro/Workspace/sda-front</string>
+											<string>/Users/danieltoro/Workspace/sda-front</string>
+											<string>/Users/danieltoro/Workspace/sda-front</string>
+											<string>/Users/danieltoro/Workspace/sda-front</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Users/calberca</string>
+											<string>/Users/danieltoro</string>
 										</dict>
 										<key>Hosts</key>
 										<array/>
@@ -3212,7 +3227,7 @@
 										<key>Program</key>
 										<dict>
 											<key>Command</key>
-											<string>login -fqp "calberca"</string>
+											<string>login -fqp "danieltoro"</string>
 											<key>Type</key>
 											<string>Command</string>
 										</dict>
@@ -3231,7 +3246,7 @@
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
-										<string>/Users/calberca/Workspace/sda-front</string>
+										<string>/Users/danieltoro/Workspace/sda-front</string>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
@@ -3902,7 +3917,7 @@
 													<key>Window Type</key>
 													<integer>0</integer>
 													<key>Working Directory</key>
-													<string>/Users/calberca</string>
+													<string>/Users/danieltoro</string>
 												</dict>
 												<key>Bookmark Name</key>
 												<string>César</string>
@@ -3912,24 +3927,24 @@
 												<array/>
 												<key>Directories</key>
 												<array>
-													<string>/Users/calberca</string>
-													<string>/Users/calberca</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
+													<string>/Users/danieltoro</string>
+													<string>/Users/danieltoro</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/calberca</string>
+													<string>/Users/danieltoro</string>
 												</dict>
 												<key>Hosts</key>
 												<array/>
@@ -3938,7 +3953,7 @@
 												<key>Program</key>
 												<dict>
 													<key>Command</key>
-													<string>login -fqp "calberca"</string>
+													<string>login -fqp "danieltoro"</string>
 													<key>Type</key>
 													<string>Command</string>
 												</dict>
@@ -3951,13 +3966,13 @@
 												<key>Session Name</key>
 												<string>..ace/sda-front</string>
 												<key>Session Window Title</key>
-												<string>calberca@autentia: ~/Workspace/sda-front</string>
+												<string>danieltoro@autentia: ~/Workspace/sda-front</string>
 												<key>Shell Integration Ever Used</key>
 												<false/>
 												<key>Substitutions</key>
 												<dict/>
 												<key>Working Directory</key>
-												<string>/Users/calberca/Workspace/sda-front</string>
+												<string>/Users/danieltoro/Workspace/sda-front</string>
 											</dict>
 											<key>View Type</key>
 											<string>SessionView</string>
@@ -4625,7 +4640,7 @@
 													<key>Window Type</key>
 													<integer>0</integer>
 													<key>Working Directory</key>
-													<string>/Users/calberca</string>
+													<string>/Users/danieltoro</string>
 												</dict>
 												<key>Bookmark Name</key>
 												<string>César</string>
@@ -4635,72 +4650,72 @@
 												<array/>
 												<key>Directories</key>
 												<array>
-													<string>/Users/calberca</string>
-													<string>/Users/calberca</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
-													<string>/Users/calberca/Workspace/sda-front</string>
+													<string>/Users/danieltoro</string>
+													<string>/Users/danieltoro</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
+													<string>/Users/danieltoro/Workspace/sda-front</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/calberca</string>
+													<string>/Users/danieltoro</string>
 												</dict>
 												<key>Hosts</key>
 												<array/>
@@ -4709,7 +4724,7 @@
 												<key>Program</key>
 												<dict>
 													<key>Command</key>
-													<string>login -fqp "calberca"</string>
+													<string>login -fqp "danieltoro"</string>
 													<key>Type</key>
 													<string>Command</string>
 												</dict>
@@ -4722,13 +4737,13 @@
 												<key>Session Name</key>
 												<string>..ace/sda-front</string>
 												<key>Session Window Title</key>
-												<string>calberca@autentia: ~/Workspace/sda-front</string>
+												<string>danieltoro@autentia: ~/Workspace/sda-front</string>
 												<key>Shell Integration Ever Used</key>
 												<false/>
 												<key>Substitutions</key>
 												<dict/>
 												<key>Working Directory</key>
-												<string>/Users/calberca/Workspace/sda-front</string>
+												<string>/Users/danieltoro/Workspace/sda-front</string>
 											</dict>
 											<key>View Type</key>
 											<string>SessionView</string>
@@ -5436,7 +5451,7 @@
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
-											<string>/Users/calberca</string>
+											<string>/Users/danieltoro</string>
 										</dict>
 										<key>Bookmark Name</key>
 										<string>César</string>
@@ -5446,17 +5461,17 @@
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/calberca</string>
-											<string>/Users/calberca</string>
-											<string>/Users/calberca</string>
-											<string>/Users/calberca</string>
-											<string>/Users/calberca/Notes</string>
-											<string>/Users/calberca/Notes</string>
+											<string>/Users/danieltoro</string>
+											<string>/Users/danieltoro</string>
+											<string>/Users/danieltoro</string>
+											<string>/Users/danieltoro</string>
+											<string>/Users/danieltoro/Notes</string>
+											<string>/Users/danieltoro/Notes</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Users/calberca</string>
+											<string>/Users/danieltoro</string>
 										</dict>
 										<key>Hosts</key>
 										<array/>
@@ -5465,7 +5480,7 @@
 										<key>Program</key>
 										<dict>
 											<key>Command</key>
-											<string>login -fqp "calberca"</string>
+											<string>login -fqp "danieltoro"</string>
 											<key>Type</key>
 											<string>Command</string>
 										</dict>
@@ -5484,7 +5499,7 @@
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
-										<string>/Users/calberca/Notes</string>
+										<string>/Users/danieltoro/Notes</string>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
@@ -6175,7 +6190,7 @@
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
-											<string>/Users/calberca</string>
+											<string>/Users/danieltoro</string>
 										</dict>
 										<key>Bookmark Name</key>
 										<string>César</string>
@@ -6185,20 +6200,20 @@
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/calberca</string>
-											<string>/Users/calberca</string>
-											<string>/Users/calberca</string>
-											<string>/Users/calberca/Workspace</string>
-											<string>/Users/calberca/Workspace</string>
-											<string>/Users/calberca/Workspace/binnacle</string>
-											<string>/Users/calberca/Workspace/binnacle</string>
-											<string>/Users/calberca/Workspace/binnacle</string>
-											<string>/Users/calberca/Workspace/binnacle</string>
+											<string>/Users/danieltoro</string>
+											<string>/Users/danieltoro</string>
+											<string>/Users/danieltoro</string>
+											<string>/Users/danieltoro/Workspace</string>
+											<string>/Users/danieltoro/Workspace</string>
+											<string>/Users/danieltoro/Workspace/binnacle</string>
+											<string>/Users/danieltoro/Workspace/binnacle</string>
+											<string>/Users/danieltoro/Workspace/binnacle</string>
+											<string>/Users/danieltoro/Workspace/binnacle</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Users/calberca</string>
+											<string>/Users/danieltoro</string>
 										</dict>
 										<key>Hosts</key>
 										<array/>
@@ -6207,7 +6222,7 @@
 										<key>Program</key>
 										<dict>
 											<key>Command</key>
-											<string>login -fqp "calberca"</string>
+											<string>login -fqp "danieltoro"</string>
 											<key>Type</key>
 											<string>Command</string>
 										</dict>
@@ -6220,13 +6235,13 @@
 										<key>Session Name</key>
 										<string>..pace/binnacle</string>
 										<key>Session Window Title</key>
-										<string>calberca@autentia: ~/Workspace/binnacle</string>
+										<string>danieltoro@autentia: ~/Workspace/binnacle</string>
 										<key>Shell Integration Ever Used</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
-										<string>/Users/calberca/Workspace/binnacle</string>
+										<string>/Users/danieltoro/Workspace/binnacle</string>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
@@ -6966,7 +6981,7 @@
 													<key>Window Type</key>
 													<integer>0</integer>
 													<key>Working Directory</key>
-													<string>/Users/calberca</string>
+													<string>/Users/danieltoro</string>
 												</dict>
 												<key>Bookmark Name</key>
 												<string>César</string>
@@ -6976,33 +6991,33 @@
 												<array/>
 												<key>Directories</key>
 												<array>
-													<string>/Users/calberca</string>
-													<string>/Users/calberca</string>
-													<string>/Users/calberca</string>
-													<string>/Users/calberca/Workspace</string>
-													<string>/Users/calberca/Workspace</string>
-													<string>/Users/calberca/Workspace</string>
-													<string>/Users/calberca/Workspace</string>
-													<string>/Users/calberca/Workspace</string>
-													<string>/Users/calberca/Workspace</string>
-													<string>/Users/calberca/Workspace</string>
-													<string>/Users/calberca/Workspace</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro</string>
+													<string>/Users/danieltoro</string>
+													<string>/Users/danieltoro</string>
+													<string>/Users/danieltoro/Workspace</string>
+													<string>/Users/danieltoro/Workspace</string>
+													<string>/Users/danieltoro/Workspace</string>
+													<string>/Users/danieltoro/Workspace</string>
+													<string>/Users/danieltoro/Workspace</string>
+													<string>/Users/danieltoro/Workspace</string>
+													<string>/Users/danieltoro/Workspace</string>
+													<string>/Users/danieltoro/Workspace</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/calberca</string>
+													<string>/Users/danieltoro</string>
 												</dict>
 												<key>Hosts</key>
 												<array/>
@@ -7011,7 +7026,7 @@
 												<key>Program</key>
 												<dict>
 													<key>Command</key>
-													<string>login -fqp "calberca"</string>
+													<string>login -fqp "danieltoro"</string>
 													<key>Type</key>
 													<string>Command</string>
 												</dict>
@@ -7030,7 +7045,7 @@
 												<key>Substitutions</key>
 												<dict/>
 												<key>Working Directory</key>
-												<string>/Users/calberca/Workspace/tutotentia-formatter</string>
+												<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
 											</dict>
 											<key>View Type</key>
 											<string>SessionView</string>
@@ -7698,7 +7713,7 @@
 													<key>Window Type</key>
 													<integer>0</integer>
 													<key>Working Directory</key>
-													<string>/Users/calberca</string>
+													<string>/Users/danieltoro</string>
 												</dict>
 												<key>Bookmark Name</key>
 												<string>César</string>
@@ -7708,111 +7723,111 @@
 												<array/>
 												<key>Directories</key>
 												<array>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-													<string>/Users/calberca/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+													<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/calberca</string>
+													<string>/Users/danieltoro</string>
 												</dict>
 												<key>Hosts</key>
 												<array/>
@@ -7821,7 +7836,7 @@
 												<key>Program</key>
 												<dict>
 													<key>Command</key>
-													<string>login -fqp "calberca"</string>
+													<string>login -fqp "danieltoro"</string>
 													<key>Type</key>
 													<string>Command</string>
 												</dict>
@@ -7834,13 +7849,13 @@
 												<key>Session Name</key>
 												<string>..tia-formatter</string>
 												<key>Session Window Title</key>
-												<string>calberca@Autentias-MacBook-Pro: ~/Workspace/tutotentia-formatter</string>
+												<string>danieltoro@Autentias-MacBook-Pro: ~/Workspace/tutotentia-formatter</string>
 												<key>Shell Integration Ever Used</key>
 												<false/>
 												<key>Substitutions</key>
 												<dict/>
 												<key>Working Directory</key>
-												<string>/Users/calberca/Workspace/tutotentia-formatter</string>
+												<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
 											</dict>
 											<key>View Type</key>
 											<string>SessionView</string>
@@ -8525,7 +8540,7 @@
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
-											<string>/Users/calberca</string>
+											<string>/Users/danieltoro</string>
 										</dict>
 										<key>Bookmark Name</key>
 										<string>César</string>
@@ -8535,24 +8550,24 @@
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/calberca</string>
-											<string>/Users/calberca/Workspace</string>
-											<string>/Users/calberca/Workspace</string>
-											<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-											<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-											<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-											<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-											<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-											<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-											<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-											<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-											<string>/Users/calberca/Workspace/tutotentia-formatter</string>
-											<string>/Users/calberca/Workspace/tutotentia-formatter</string>
+											<string>/Users/danieltoro</string>
+											<string>/Users/danieltoro/Workspace</string>
+											<string>/Users/danieltoro/Workspace</string>
+											<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+											<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+											<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+											<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+											<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+											<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+											<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+											<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+											<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
+											<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Users/calberca</string>
+											<string>/Users/danieltoro</string>
 										</dict>
 										<key>Hosts</key>
 										<array/>
@@ -8561,7 +8576,7 @@
 										<key>Program</key>
 										<dict>
 											<key>Command</key>
-											<string>login -fqp "calberca"</string>
+											<string>login -fqp "danieltoro"</string>
 											<key>Type</key>
 											<string>Command</string>
 										</dict>
@@ -8574,13 +8589,13 @@
 										<key>Session Name</key>
 										<string>..tia-formatter</string>
 										<key>Session Window Title</key>
-										<string>calberca@Autentias-MacBook-Pro: ~/Workspace/tutotentia-formatter</string>
+										<string>danieltoro@Autentias-MacBook-Pro: ~/Workspace/tutotentia-formatter</string>
 										<key>Shell Integration Ever Used</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
-										<string>/Users/calberca/Workspace/tutotentia-formatter</string>
+										<string>/Users/danieltoro/Workspace/tutotentia-formatter</string>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
@@ -9271,7 +9286,7 @@
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
-											<string>/Users/calberca</string>
+											<string>/Users/danieltoro</string>
 										</dict>
 										<key>Bookmark Name</key>
 										<string>César</string>
@@ -9281,65 +9296,65 @@
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/calberca</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
-											<string>/Users/calberca/dotfiles</string>
+											<string>/Users/danieltoro</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
+											<string>/Users/danieltoro/dotfiles</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Users/calberca</string>
+											<string>/Users/danieltoro</string>
 										</dict>
 										<key>Hosts</key>
 										<array/>
@@ -9348,7 +9363,7 @@
 										<key>Program</key>
 										<dict>
 											<key>Command</key>
-											<string>login -fqp "calberca"</string>
+											<string>login -fqp "danieltoro"</string>
 											<key>Type</key>
 											<string>Command</string>
 										</dict>
@@ -9367,7 +9382,7 @@
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
-										<string>/Users/calberca/dotfiles</string>
+										<string>/Users/danieltoro/dotfiles</string>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
@@ -9422,9 +9437,9 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.20190226-nightly</string>
+	<string>3.3.20190407-nightly</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
 	<false/>
 </dict>
