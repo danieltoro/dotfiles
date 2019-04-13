@@ -8,6 +8,15 @@ brew bundle
 code --install-extension esbenp.prettier-vscode
 code --install-extension octref.vetur
 code --install-extension EditorConfig.editorconfig
+code --install-extension christian-kohler.path-intellisense
+code --install-extension dbaeumer.jshint
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension Equinusocio.vsc-material-theme
+code --install-extension foxundermoon.shell-format
+code --install-extension mgmcdermott.vscode-language-babel
+code --install-extension mikestead.dotenv
+code --install-extension PKief.material-icon-theme
+code --install-extension whizkydee.material-palenight-theme
 
 # Configure iTerm2 profile
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/dotfiles/iterm2"
@@ -31,6 +40,9 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 
 # Install zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# Install zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # Configure profile
 dir=~/dotfiles
