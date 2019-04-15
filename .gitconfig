@@ -2,6 +2,7 @@
 	email = d.toro@outlook.com
 	name = danieltoro
 [alias]
+  l = "git log --all --decorate --oneline --graph"
   c = commit -m
   ch = checkout
   a = add
@@ -18,13 +19,15 @@
 	remote = origin
 	merge = refs/heads/master
 	mergeoptions = --no-ff
+[push]
+  default = current
 [pull]
 	ff = true
 [credential]
 	helper = cache
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
