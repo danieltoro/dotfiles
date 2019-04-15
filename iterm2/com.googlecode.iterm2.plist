@@ -433,6 +433,11 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>842 110 772 389 0 0 1680 1027 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
@@ -440,7 +445,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>208 188 644 165 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>590 69 1090 582 0 0 1680 1027 </string>
+	<string>29 282 1090 582 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -559,13 +564,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.21838887874037027</real>
+				<real>0.29019607843137257</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.553497314453125</real>
+				<real>0.76470588235294112</real>
 				<key>Red Component</key>
-				<real>0.41724444444325931</real>
+				<real>0.54509803921568623</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
@@ -1829,7 +1834,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>A4E61B88-B0CF-4AED-AB34-399943D06E08</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>69</integer>
+	<integer>70</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
