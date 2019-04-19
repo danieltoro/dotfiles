@@ -1,4 +1,6 @@
 export ZSH=$HOME/.oh-my-zsh
+export LC_ALL=en_US.UTF-8  
+export LANG=en_US.UTF-8
 
 ZSH_THEME="spaceship"
 
@@ -164,7 +166,12 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-source /Users/danieltoro/.rvm/scripts/rvm
+
+
+# alias ls='colorls — light — sort-dirs — report'
+# alias lc='colorls — tree — light'
+alias lc='colorls -lA --sd'
+
 
 # Android Studio path's
 export ANDROID_HOME=/Users/danieltoro/Library/Android/sdk
@@ -181,10 +188,14 @@ export PATH=~/.npm-global/bin:$PATH
 
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+  [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completionexport PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/ruby/lib"
+export CPPFLAGS="-I/usr/local/opt/ruby/include" 
+export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
+
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 
 
-
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+source $(dirname $(gem which colorls))/tab_complete.sh
+export PATH="/home/danieltoro/.gem/ruby/2.6.0/bin:$PATH"
