@@ -156,6 +156,13 @@ module.exports = {
     webGLRenderer: true,
 
     // for advanced config flags please refer to https://hyper.is/#cfg
+
+    hyperTabs: {
+      trafficButtons: true,
+      border: true,
+      tabIconsColored: true,
+      closeAlign: 'right',
+    },
   },
 
   // a list of plugins to fetch and install from npm
@@ -170,11 +177,13 @@ module.exports = {
     "hyper-font-ligatures",
     "hyper-statusline",
     "hyperterm-bold-tab",
-    "hyper-simple-highlight-active-session",
+    'hyper-tabs-enhanced',
     "hypercwd",
     "hyper-pane",
     "hyper-search"
   ],
+
+
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
