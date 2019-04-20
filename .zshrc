@@ -1,5 +1,8 @@
 export ZSH=$HOME/.oh-my-zsh
 
+# IMPORT ALIAS FILE
+source ~/dotfiles/.aliases
+
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
@@ -7,11 +10,6 @@ ZSH_THEME="spaceship"
 
 # SPACESHIP THEME CONFIGURATIONS
 source ~/dotfiles/.spaceship
-
-
-# IMPORT ALIAS FILE
-source ~/dotfiles/.alias
-
 
 ZSH_DISABLE_COMPFIX=true
 
