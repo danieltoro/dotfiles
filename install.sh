@@ -58,7 +58,7 @@ for file in $files; do
 done
 
 # Change MacOS configuration
-source .macos
+# source .macos
 
 # Create private-profile
 cd ~
